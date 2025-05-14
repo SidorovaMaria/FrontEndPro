@@ -5,6 +5,7 @@ import Layout from "./pages/Layout";
 import Accordion from "./pages/Accordion";
 import OTPVerification from "./pages/OTPVerification";
 import RandomQuote from "./pages/RandomQuote";
+import Calendar from "./pages/Calendar";
 
 const App = () => {
 	return (
@@ -16,6 +17,7 @@ const App = () => {
 					<Route path="accordion" element={<Accordion />} />
 					<Route path="otp" element={<OTPVerification />} />
 					<Route path="random-quote" element={<RandomQuote />} />
+					<Route path="calendar" element={<Calendar />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>
